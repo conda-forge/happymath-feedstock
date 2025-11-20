@@ -1,5 +1,5 @@
 {% set name = "happymath" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/happymath/happymath-{{ version }}.tar.gz
-  sha256: 963463dbdb26e059aeacc1558f475531557e8170c5b67b466481abb6b27a5484
+  sha256: b28b96fa0bcc014dc4c5f11c9a1056f79edee462cf32b0e9198a6ede80fbe1b6
 
 build:
   noarch: python
